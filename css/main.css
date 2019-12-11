@@ -15,9 +15,13 @@ html {
 @media print {
 
   .header,
-  .inset-img,
-  .footer {
+  .footer,
+  .chapter-name {
     display: none;
+  }
+
+  .inset-img {
+    border-color: #000;
   }
 
 }
