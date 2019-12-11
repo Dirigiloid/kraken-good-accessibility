@@ -12,6 +12,16 @@ html {
   color: #fff;
 }
 
+@media print {
+
+  .header,
+  .inset-img,
+  .footer {
+    display: none;
+  }
+
+}
+
 .chapter-ends {
   background-color: #259f95;
   border: 1px solid #1e7c74;
